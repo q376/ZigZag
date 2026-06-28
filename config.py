@@ -8,7 +8,7 @@ plus the new settings needed to run standalone (data source, Telegram, paper tra
 # ---------------------------------------------------------------------------
 # Data source
 # ---------------------------------------------------------------------------
-EXCHANGE_ID = "binance"          # ccxt exchange id (public endpoints only, no API key needed)
+EXCHANGE_ID = "hyperliquid"          # ccxt exchange id (public endpoints only, no API key needed)
 SYMBOL = "BTC/USDT"
 BASE_TIMEFRAME = "1m"            # the timeframe candles are fetched/streamed at
 POLL_SECONDS = 5                 # how often to check for a new closed candle
